@@ -1,0 +1,252 @@
+/* CSS FOR THE FORM */
+
+/* body background color */
+body, html {
+    background-color: #ebecf0;
+}
+
+
+/* words styling in all tags and buttons */
+body, p, input, select, textarea, button, option, select {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+
+/* heading styling */
+#heading, p {
+    color: #babecc;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+/* form decoration */
+form {
+    padding: 10px;
+    width: 27.35%;
+    min-width: 290px;
+    margin: 0 auto;
+}
+
+
+/* div for heading */
+.head-div {
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/* button, input and select styling */
+button, input, select {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-size: max(14px,1.045vw);
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+
+/* labels styling */
+label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+
+/* specifally input and select tag styling */
+input, select {
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+
+/* specifally input and select tag styling in focus mode */
+input:focus, select:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+
+/* button styling */
+button {
+    color: #61677c;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+button:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+
+button.add-button:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+    font-size: 15.8px;
+    
+}
+
+
+button .icon {
+    margin-right: 8px;
+}
+
+
+button.unit {
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;
+}
+
+
+button.unit .icon {
+    margin-right: 0;
+}
+
+
+button.add-button {
+    display: block;
+    width: 75%;
+}
+
+
+.edit-update-button {
+    width: 75%; 
+    font-size: 20px;
+}
+
+
+button.edit-update-button:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+    font-size: 19.8px;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* CSS FOR THE DISPLAY SECTION */
+
+/* whole section styling */
+#sec::-webkit-scrollbar {
+    display: none;
+  }
+
+
+#sec{
+    height:301px;
+    overflow: auto;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 64%;
+    min-width: 320px;
+    margin: 14px auto;
+    border-radius: 20px;
+}
+
+
+/* styling for todos */
+.todo-list {
+    font-size: max(16px,1.172vw);
+    width: 90%;
+    margin: auto;
+    margin-top: 6px;
+    padding: 0.5em 1em;
+    transition: 0.2s all ease-in-out;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+
+.todo-list:hover{
+    background-color: #ebecf0;
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+
+.todo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.todo:last-child {
+    border-bottom: none;
+}
+
+
+/* category div styling */
+.catesec{
+    padding: max(4px,0.655vw);    
+    height: 20%;
+    min-width: 80px;
+    background-color: #ebecf0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    margin-bottom: 5px;
+}
+
+
+/* date div styling */
+.date-div {
+    min-width: 110px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* msg div styling */
+.msg-div{
+    overflow-wrap: break-word;
+}
+
+
+/* display icons styling */
+.icon1 i{
+    transition: 0.5s all ease-in-out;
+    color: midnightblue;
+    /* font-size: 24px; */
+    font-size: max(14px,1.5vw);
+}
+
+
+.icon2 i{
+    transition: 0.5s all ease-in-out;
+    color: midnightblue;
+    /* font-size: 28px; */
+    font-size: max(16px, 1.8vw);
+}
